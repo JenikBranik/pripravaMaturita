@@ -5,7 +5,7 @@ graph = {
     'D': ['A','G'],
     'E': ['B'],
     'F': ['C'],
-    'G': ['G']
+    'G': ['D']
 }
 
 def bfs(graph, start):
