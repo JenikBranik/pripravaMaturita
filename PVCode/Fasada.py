@@ -20,7 +20,7 @@ class Fasada:
 
     def get_user(self,name):
         query = "SELECT * FROM user where name = %s"
-        self.cursor.execute(query, (name))
+        self.cursor.execute(query, (name,))
         return self.cursor.fetchall()
 
 test = Fasada()

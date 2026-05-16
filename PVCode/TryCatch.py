@@ -7,3 +7,5 @@ def number_input():
                 print(e)
 
 number_input()
+
+assert "Ahoj"==type(int)
